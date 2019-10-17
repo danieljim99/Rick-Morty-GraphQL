@@ -10,13 +10,13 @@
 
  **Search a character by its id**
  
- `query{
-    character(id:<Int>){
-      <attribute1>
-      <attribute2>
-      ...
-    }
-  }`
+ `query{`
+    `character(id:<Int>){`
+      `<attribute1>`
+      `<attribute2>`
+      `...`
+    `}`
+  `}`
 
  **List all existing characters**
  
