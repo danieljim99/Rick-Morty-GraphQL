@@ -19,53 +19,49 @@
   }
 ```
  **List all existing characters**
- 
- `query{
- 
+ ```
+ query{
     characters(){
-    
       <attribute1>
-      
       <attribute2>
-      
       ...
-      
     }
-    
-  }`
- 
+  }
+ ```
  **List all existing characters by name**
- 
-   `query{
+ ```
+   query{
     characters(name:<String>){
       <attribute1>
       <attribute2>
       ...
     }
-  }`
- 
+  }
+ ```
  **List all existing characters by name and status**
- 
-  `query{
+ ```
+  query{
     characters(name:<String>, status:<String>){
       <attribute1>
       <attribute2>
       ...
     }
-  }`
+  }
+  ```
   
  **Configure the page number and the page size using characters**
- 
-  `query{
+ ```
+  query{
       characters(page:<Int>, pageSize:<Int>...){
         <atributte1>
         <atributte2>
         ...
       }
-    }`
- 
+    }
+ ```
  **Show all existing planets**
- 
- `query{
+ ```
+ query{
     planets
-  }`
+  }
+  ```
