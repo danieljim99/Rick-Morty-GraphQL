@@ -21,11 +21,17 @@
  **List all existing characters**
  
  `query{
+ 
     characters(){
+    
       <attribute1>
+      
       <attribute2>
+      
       ...
+      
     }
+    
   }`
  
  **List all existing characters by name**
